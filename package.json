@@ -1,13 +1,13 @@
 {
-  "name": "react-native-markdown-editor",
-  "version": "1.0.4",
+  "name": "@voilknetwork/react-native-markdown-editor",
+  "version": "1.0.5",
   "main": "lib/main.js",
   "scripts": {
     "test": "npm run test:prettier && jest",
     "prettier-all": "prettier --write --single-quote --jsx-bracket-same-line --trailing-comma all --print-width 100  `find lib -name \"*.js\"`",
     "prettier": "prettier --write --single-quote --jsx-bracket-same-line --trailing-comma all --print-width 100",
     "test:prettier": "prettier-check  --single-quote --jsx-bracket-same-line --trailing-comma all --print-width 100 `find lib -name \"*.js\"`"
-    },
+  },
   "dependencies": {
     "react-native-markdown-view": "^1.0.0"
   },
@@ -25,5 +25,24 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "description": "[![npm version](https://badge.fury.io/js/react-native-markdown-editor.svg)](https://badge.fury.io/js/react-native-markdown-editor) [![Build Status](https://travis-ci.org/kunall17/react-native-markdown-editor.svg?branch=master)](https://travis-ci.org/kunall17/react-native-markdown-editor)",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voilknetwork/react-native-markdown-editor.git"
+  },
+  "keywords": [
+    "react",
+    "reactnative",
+    "markdowneditor"
+  ],
+  "author": "Bilal Haider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voilknetwork/react-native-markdown-editor/issues"
+  },
+  "homepage": "https://github.com/voilknetwork/react-native-markdown-editor#readme"
 }
